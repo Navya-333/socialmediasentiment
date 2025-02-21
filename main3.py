@@ -19,7 +19,6 @@ def clean_Text(Text):
     Text = re.sub(r'#', '', Text)  # Remove hashtags
     Text = re.sub(r'[^\w\s]', '', Text) # Remove punctuation and special characters
     Text = Text.lower() # Lowercasing
-    
     #Tokenization
     words = Text.split()
     
